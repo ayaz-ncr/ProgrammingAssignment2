@@ -15,6 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
         getinv <- function() inv
 
 # following code assigns above functions as named elements of list and returns it to the parent environment
+        
         list(set = set, get = get,
         setinv = setinv,
         getinv = getinv)
